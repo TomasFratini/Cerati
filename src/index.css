@@ -2,11 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-.position-nav {
-    position: fixed;
+.nav {
+    height: 150px;
 }
-.btn-color {
-    color: white;
+
+.logo {
+    font-size: 34px;
+    font-family: 'Inconsolata', monospace;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: .1em;
+    font-weight: normal;
 }
 
 .audio {
