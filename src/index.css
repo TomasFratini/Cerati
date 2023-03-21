@@ -6,6 +6,12 @@
     height: 150px;
 }
 
+.titulos {
+    font-family: 'Inconsolata', monospace;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 0.099em;
+}
 .logo {
     font-size: 34px;
     font-family: 'Inconsolata', monospace;
