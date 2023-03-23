@@ -9,7 +9,7 @@ const Card = (props) => {
   return (
     <div className="carousel rounded-box">
   <div className="ccarousel-item">
-    <a href="/"><img src={img} alt="Img" /></a>
+    <Link to={`/imagenes/${id}`}><img src={img} alt="Img" /></Link>
   </div> 
 </div>
     )
