@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Navbar */
+
 .nav {
     height: 150px;
 }
@@ -19,6 +21,14 @@
     display: inline-block;
     letter-spacing: .1em;
     font-weight: normal;
+}
+
+/* Detalle imagen */
+
+.modelo-guitarra {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
 }
 
 .audio {

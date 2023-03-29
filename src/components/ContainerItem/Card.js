@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 const Card = (props) => {
 
-  const {id, description, img, modelo} = props.imagen
+  const {id, img} = props.imagen
 
 
   return (
