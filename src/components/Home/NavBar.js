@@ -1,4 +1,3 @@
-import Audio from "../audio/Audio"
 import { Link } from 'react-router-dom'
 
 const NavBar = () => {
