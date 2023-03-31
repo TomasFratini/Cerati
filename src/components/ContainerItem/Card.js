@@ -7,11 +7,11 @@ const Card = (props) => {
 
 
   return (
-    <div className="carousel rounded-box">
-  <div className="ccarousel-item">
-    <Link to={`/imagenes/${id}`}><img src={img} alt="Img" /></Link>
-  </div> 
-</div>
+    <div className="carousel">
+      <div className="carousel-item">
+        <Link to={`/imagenes/${id}`}><img src={img} alt="Img" /></Link>
+      </div> 
+    </div>
     )
   }
   export default Card

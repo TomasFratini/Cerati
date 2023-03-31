@@ -35,3 +35,8 @@
     width: 100px;
     height: 50px;
 }
+
+.pie {
+    font-family: 'Inconsolata', monospace;
+    font-size: 15px;
+}
