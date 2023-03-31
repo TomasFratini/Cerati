@@ -8,10 +8,10 @@ const Card = (props) => {
 
   return (
     <div className="carousel">
-      <div className="carousel-item">
-        <Link to={`/imagenes/${id}`}><img src={img} alt="Img" /></Link>
-      </div> 
-    </div>
+  <div className="ccarousel-item">
+    <Link className="rounded-lg" to={`/imagenes/${id}`}><img src={img} alt="Img" /></Link>
+  </div> 
+</div>
     )
   }
   export default Card
